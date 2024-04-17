@@ -12,6 +12,16 @@
 		1753EA6A2BCE63B7006F380C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA692BCE63B7006F380C /* Item.swift */; };
 		1753EA6C2BCE63B8006F380C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1753EA6B2BCE63B8006F380C /* Assets.xcassets */; };
 		1753EA6F2BCE63B8006F380C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1753EA6E2BCE63B8006F380C /* Preview Assets.xcassets */; };
+		1753EA762BCF6B4B006F380C /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA752BCF6B4B006F380C /* OnBoardingView.swift */; };
+		1753EA782BCF6BFB006F380C /* CreateORJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA772BCF6BFB006F380C /* CreateORJoin.swift */; };
+		1753EA7A2BCF6C3C006F380C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA792BCF6C3C006F380C /* Login.swift */; };
+		1753EA7C2BCF6C4D006F380C /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA7B2BCF6C4D006F380C /* SignUp.swift */; };
+		1753EA7E2BCF6C9C006F380C /* TripInfoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA7D2BCF6C9C006F380C /* TripInfoSettings.swift */; };
+		1753EA802BCF6CD5006F380C /* MeetingSpotsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA7F2BCF6CD5006F380C /* MeetingSpotsInfo.swift */; };
+		1753EA822BCF6CE7006F380C /* TheTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA812BCF6CE7006F380C /* TheTrip.swift */; };
+		1753EA842BCF6D02006F380C /* JoinFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA832BCF6D02006F380C /* JoinFriends.swift */; };
+		1753EA862BCF6D17006F380C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA852BCF6D17006F380C /* Settings.swift */; };
+		1753EA882BCF6D21006F380C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA872BCF6D21006F380C /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,16 @@
 		1753EA692BCE63B7006F380C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1753EA6B2BCE63B8006F380C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1753EA6E2BCE63B8006F380C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1753EA752BCF6B4B006F380C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		1753EA772BCF6BFB006F380C /* CreateORJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateORJoin.swift; sourceTree = "<group>"; };
+		1753EA792BCF6C3C006F380C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1753EA7B2BCF6C4D006F380C /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		1753EA7D2BCF6C9C006F380C /* TripInfoSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoSettings.swift; sourceTree = "<group>"; };
+		1753EA7F2BCF6CD5006F380C /* MeetingSpotsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingSpotsInfo.swift; sourceTree = "<group>"; };
+		1753EA812BCF6CE7006F380C /* TheTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTrip.swift; sourceTree = "<group>"; };
+		1753EA832BCF6D02006F380C /* JoinFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFriends.swift; sourceTree = "<group>"; };
+		1753EA852BCF6D17006F380C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1753EA872BCF6D21006F380C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,16 @@
 				1753EA692BCE63B7006F380C /* Item.swift */,
 				1753EA6B2BCE63B8006F380C /* Assets.xcassets */,
 				1753EA6D2BCE63B8006F380C /* Preview Content */,
+				1753EA772BCF6BFB006F380C /* CreateORJoin.swift */,
+				1753EA752BCF6B4B006F380C /* OnBoardingView.swift */,
+				1753EA792BCF6C3C006F380C /* Login.swift */,
+				1753EA7B2BCF6C4D006F380C /* SignUp.swift */,
+				1753EA7D2BCF6C9C006F380C /* TripInfoSettings.swift */,
+				1753EA7F2BCF6CD5006F380C /* MeetingSpotsInfo.swift */,
+				1753EA812BCF6CE7006F380C /* TheTrip.swift */,
+				1753EA832BCF6D02006F380C /* JoinFriends.swift */,
+				1753EA852BCF6D17006F380C /* Settings.swift */,
+				1753EA872BCF6D21006F380C /* Account.swift */,
 			);
 			path = TripManagement;
 			sourceTree = "<group>";
@@ -140,8 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1753EA822BCF6CE7006F380C /* TheTrip.swift in Sources */,
+				1753EA882BCF6D21006F380C /* Account.swift in Sources */,
+				1753EA7C2BCF6C4D006F380C /* SignUp.swift in Sources */,
+				1753EA782BCF6BFB006F380C /* CreateORJoin.swift in Sources */,
 				1753EA682BCE63B7006F380C /* ContentView.swift in Sources */,
+				1753EA762BCF6B4B006F380C /* OnBoardingView.swift in Sources */,
+				1753EA842BCF6D02006F380C /* JoinFriends.swift in Sources */,
+				1753EA862BCF6D17006F380C /* Settings.swift in Sources */,
+				1753EA7A2BCF6C3C006F380C /* Login.swift in Sources */,
+				1753EA7E2BCF6C9C006F380C /* TripInfoSettings.swift in Sources */,
 				1753EA6A2BCE63B7006F380C /* Item.swift in Sources */,
+				1753EA802BCF6CD5006F380C /* MeetingSpotsInfo.swift in Sources */,
 				1753EA662BCE63B7006F380C /* TripManagementApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
