@@ -22,6 +22,7 @@
 		1753EA842BCF6D02006F380C /* JoinFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA832BCF6D02006F380C /* JoinFriends.swift */; };
 		1753EA862BCF6D17006F380C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA852BCF6D17006F380C /* Settings.swift */; };
 		1753EA882BCF6D21006F380C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753EA872BCF6D21006F380C /* Account.swift */; };
+		17D05D9C2BD50119002035FD /* CloudKitUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D05D9B2BD50119002035FD /* CloudKitUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		1753EA832BCF6D02006F380C /* JoinFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFriends.swift; sourceTree = "<group>"; };
 		1753EA852BCF6D17006F380C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		1753EA872BCF6D21006F380C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		17D05D9B2BD50119002035FD /* CloudKitUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUsers.swift; sourceTree = "<group>"; };
+		17D05D9D2BD5019E002035FD /* TripManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TripManagement.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		1753EA642BCE63B7006F380C /* TripManagement */ = {
 			isa = PBXGroup;
 			children = (
+				17D05D9D2BD5019E002035FD /* TripManagement.entitlements */,
+				17D05D9A2BD500EC002035FD /* CloudKit */,
 				1753EA652BCE63B7006F380C /* TripManagementApp.swift */,
 				1753EA672BCE63B7006F380C /* ContentView.swift */,
 				1753EA692BCE63B7006F380C /* Item.swift */,
@@ -98,6 +103,14 @@
 				1753EA6E2BCE63B8006F380C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17D05D9A2BD500EC002035FD /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				17D05D9B2BD50119002035FD /* CloudKitUsers.swift */,
+			);
+			path = CloudKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +196,7 @@
 				1753EA6A2BCE63B7006F380C /* Item.swift in Sources */,
 				1753EA802BCF6CD5006F380C /* MeetingSpotsInfo.swift in Sources */,
 				1753EA662BCE63B7006F380C /* TripManagementApp.swift in Sources */,
+				17D05D9C2BD50119002035FD /* CloudKitUsers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TripManagement/TripManagement.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TripManagement/Preview Content\"";
@@ -342,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TripManagement/TripManagement.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TripManagement/Preview Content\"";
